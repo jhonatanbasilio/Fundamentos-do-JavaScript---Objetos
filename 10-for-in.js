@@ -3,7 +3,8 @@
     Percorrer um objeto e extrair informações básicas do cliente em um formato mais legivel e de forma 
 automatizada para fornecer a outros departamentos do banco.
 
-    Meodo for in é um metodo do js para obj
+    Metodo for in é um metodo do js para obj, abaixo ele será utilizado para percorrer os atributos/chaves
+do obj cliente e selecionar para exibir os que não são funções, arrays e outros objetos.
 */
 const cliente = {
     nome: "Jhonatan",
